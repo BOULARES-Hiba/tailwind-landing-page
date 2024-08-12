@@ -1,0 +1,1 @@
+This project is a practice exercise to enhance my skills with Tailwind CSS. The main goal is to become more proficient in using Tailwind's utility classes to build responsive and well-designed layouts.
