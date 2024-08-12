@@ -9,6 +9,9 @@ icon.addEventListener('click', () => {
  });
 
 window.addEventListener('scroll',()=>{
-navlink.classList.remove('opens');
-icon.classList.remove('bx-x');
+      if (navlink.classList.contains('flex')) { 
+            navlink.classList.remove('flex');
+            navlink.classList.add('hidden');
+            icon.classList.remove('bx-x');
+        }
 }) 
